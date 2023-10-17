@@ -30,7 +30,7 @@ def read_directory() -> list[str]:
     excel_files = []
 
     [excel_files.append(f"{DIR}{file}") for file in os.listdir(DIR) 
-     if file.endswith(".csv") or file.endswith(".xlsx")]
+     if file.endswith(".csv") or file.endswith(".xlsx") or file.endswith(".json")]
     
     if not len(excel_files):
         raise NoFilesFoundInDirError("Files not found in directory")
