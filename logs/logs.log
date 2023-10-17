@@ -1,0 +1,3 @@
+Logger:INFO - Reading files in ./dir/
+Logger:INFO - 4 files found
+Logger:INFO - File n.xlsx renamed to n_10.17.23.xlsx
